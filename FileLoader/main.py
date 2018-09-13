@@ -5,7 +5,16 @@ import time
 from logging import Log
 from multiprocessing import cpu_count, Queue, Process
 
+def time_counter(func):
+    def count(*args):
+        start = time.time()
+        func(*args)
+        end = time.time()
+        print(end - start)
+    return count
 
+#delete '#' if you wont to count the time of work method
+#@time_counter
 def start_processes(parse_res, count_cpu_param=1):
     user = [parse_res.user["host"],
             parse_res.user["name"],
@@ -40,8 +49,5 @@ if __name__ == "__main__":
     parsing_res = jp.ParseJson("conf.json")
     if parsing_res.parsing_complete:
         count_cpu = cpu_count()
-        start = time.time()
         start_processes(parsing_res, count_cpu)
-        end = time.time()
-        print(end - start)
 
