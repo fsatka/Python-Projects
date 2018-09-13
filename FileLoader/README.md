@@ -47,5 +47,6 @@ structure of **"path"**
             "path of file for load to ftp server",
             "name of file"
         ]
+    ]
 }
 ```
