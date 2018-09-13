@@ -46,6 +46,6 @@ structure of **"path"**
             "path of file from local machine",
             "path of file for load to ftp server",
             "name of file"
-        ],
+        ]
 }
 ```
