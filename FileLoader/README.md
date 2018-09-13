@@ -15,7 +15,7 @@ class that implements thread-safe write to the **file.log**,
 which locates in directory of program
 
 ## ParseJson
-class that parses the Jason file of the following type:
+class that parses the **json** file of the following type:
 ```json
 {
     "path": [
