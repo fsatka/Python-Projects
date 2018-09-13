@@ -37,3 +37,15 @@ class that parses the **json** file of the following type:
     }
 }
 ```
+
+structure of **"path"**
+```json
+{
+    "path": [
+        [
+            "path of file from local machine",
+            "path of file for load to ftp server",
+            "name of file"
+        ],
+}
+```
