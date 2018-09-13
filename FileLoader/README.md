@@ -2,6 +2,7 @@
 
 ## FTPLoader
 Base class for load data to server.
+Was tested on "Ubuntu 16.04.LTS"
 
 ### Consider:
 1. class **Log** for logging errors to **file.log**.
