@@ -1,8 +1,8 @@
 import setuptools
 from os.path import join, dirname
 
-import speech_semafor
-version = speech_semafor.__version__
+import speech_semaphore
+version = speech_semaphore.__version__
 
 with open(join(dirname(__file__), 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
