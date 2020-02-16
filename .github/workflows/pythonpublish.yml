@@ -24,6 +24,6 @@ jobs:
         TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       run: |
         cd ./speech_semafor
-        pip install requirements.txt
+        pip install -r requirements.txt
         python setup.py sdist bdist_wheel
         twine upload dist/*
