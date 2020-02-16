@@ -13,7 +13,7 @@ Syntesis audio has __wav__ format.
 ## examples
 
 ```python
-from speech_semafor import ClientTTS
+from speech_semaphore import ClientTTS
 
 API_KEY = "api_key"
 SECRET_KEY = "secret_key"
