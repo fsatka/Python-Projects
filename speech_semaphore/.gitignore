@@ -1,0 +1,16 @@
+# ide
+.idea
+.vscode
+
+# audio
+*.wav
+
+# e2e
+test.py
+
+dist
+build
+
+/*.egg-info
+
+*/__pycache__/
