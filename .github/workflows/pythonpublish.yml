@@ -23,7 +23,7 @@ jobs:
         TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
         TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       run: |
-        cd ./speech_semafor
+        cd ./speech_semaphore
         pip install -r requirements.txt
         python setup.py sdist bdist_wheel
         twine upload dist/*
